@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{3329CD7D-BA31-48F3-8565-7ED314B962B8}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BestTvStreaming</RootNamespace>
+    <AssemblyName>BestTvStreaming</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>images.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.pt-BR.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\Animal Planet.html" />
+    <Content Include="data\AXN.html" />
+    <Content Include="data\SBT.html" />
+    <Content Include="data\Cartoon Network.html" />
+    <Content Include="data\Cinemax.html" />
+    <Content Include="data\d.html" />
+    <Content Include="data\Discovery Chanel.html" />
+    <Content Include="data\Discovery HD.html" />
+    <Content Include="data\Discovery home and health.html" />
+    <Content Include="data\Discovery ID.html" />
+    <Content Include="data\Discovery Kids.html" />
+    <Content Include="data\Discovery Turbo.html" />
+    <Content Include="data\Disney Chanel - Cópia.html" />
+    <Content Include="data\Disney Chanel.html" />
+    <Content Include="data\Disney junior.html" />
+    <Content Include="data\Disney XD.html" />
+    <Content Include="data\ESPN+.html" />
+    <Content Include="data\ESPN.html" />
+    <Content Include="data\ESPN brasil.html" />
+    <Content Include="data\ESPNHD.html" />
+    <Content Include="data\Esporte Interativo.html" />
+    <Content Include="data\FOX.html" />
+    <Content Include="data\Fox Sports.html" />
+    <Content Include="data\Foxsport2.html" />
+    <Content Include="data\FX.html" />
+    <Content Include="data\Globo.html" />
+    <Content Include="data\Gloob.html" />
+    <Content Include="data\HBOplus.html" />
+    <Content Include="data\History.html" />
+    <Content Include="data\images.png" />
+    <Content Include="data\mauricio pai nenem d jake.txt" />
+    <Content Include="data\MegaPix.html" />
+    <Content Include="data\MGM.html" />
+    <Content Include="data\Multishow.html" />
+    <Content Include="data\National Geographic.html" />
+    <Content Include="data\National Wildlife.html" />
+    <Content Include="data\Nickelodeon.html" />
+    <Content Include="data\NickHD.html" />
+    <Content Include="data\NickJr.html" />
+    <Content Include="data\PFC.html" />
+    <Content Include="data\RedeTV.html" />
+    <Content Include="data\Sony.html" />
+    <Content Include="data\Sony Spin.html" />
+    <Content Include="data\Space.html" />
+    <Content Include="data\Sports+.html" />
+    <Content Include="data\Studio.html" />
+    <Content Include="data\SyFy.html" />
+    <Content Include="data\TCM.html" />
+    <Content Include="data\Telecine Action.html" />
+    <Content Include="data\Telecine Cult.html" />
+    <Content Include="data\Telecine Fun.html" />
+    <Content Include="data\Telecine Pipoca.html" />
+    <Content Include="data\Telecine Premium.html" />
+    <Content Include="data\Telecine Touch.html" />
+    <Content Include="data\Test2.html" />
+    <Content Include="data\teste.html" />
+    <Content Include="data\teste3.html" />
+    <Content Include="data\TLC.html" />
+    <Content Include="data\TNT.html" />
+    <Content Include="data\ToonCast.html" />
+    <Content Include="data\TRU tv.html" />
+    <Content Include="data\TV Record RIO.html" />
+    <Content Include="data\TV Record SP.html" />
+    <Content Include="data\Universal.html" />
+    <Content Include="data\Untitled-27.html" />
+    <Content Include="data\viva.html" />
+    <Content Include="data\Warner brothers.html" />
+    <Content Include="images.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

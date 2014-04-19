@@ -1,0 +1,10 @@
+C:\Users\Walison\Documents\SharpDevelop Projects\BestTvStreaming\BestTvStreaming\bin\Debug\BestTvStreaming.exe
+C:\Users\Walison\Documents\SharpDevelop Projects\BestTvStreaming\BestTvStreaming\bin\Debug\BestTvStreaming.pdb
+C:\Users\Walison\Documents\SharpDevelop Projects\BestTvStreaming\BestTvStreaming\obj\Debug\BestTvStreaming.csprojResolveAssemblyReference.cache
+C:\Users\Walison\Documents\SharpDevelop Projects\BestTvStreaming\BestTvStreaming\obj\Debug\BestTvStreaming.MainForm.resources
+C:\Users\Walison\Documents\SharpDevelop Projects\BestTvStreaming\BestTvStreaming\obj\Debug\BestTvStreaming.csproj.GenerateResource.Cache
+C:\Users\Walison\Documents\SharpDevelop Projects\BestTvStreaming\BestTvStreaming\obj\Debug\BestTvStreaming.exe
+C:\Users\Walison\Documents\SharpDevelop Projects\BestTvStreaming\BestTvStreaming\obj\Debug\BestTvStreaming.pdb
+C:\Users\Walison\Documents\SharpDevelop Projects\BestTvStreaming\BestTvStreaming\bin\Debug\pt-BR\BestTvStreaming.resources.dll
+C:\Users\Walison\Documents\SharpDevelop Projects\BestTvStreaming\BestTvStreaming\obj\Debug\BestTvStreaming.MainForm.pt-BR.resources
+C:\Users\Walison\Documents\SharpDevelop Projects\BestTvStreaming\BestTvStreaming\obj\Debug\pt-BR\BestTvStreaming.resources.dll
